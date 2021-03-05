@@ -1,0 +1,218 @@
+body{
+	font-family: Maiandra GD;
+	  background-color: #a7040e;
+	color: gold;
+	font-size : 20px;
+	margin: 0px;
+}
+
+.jumbotron {
+   font-size: 40px;
+   padding: 5px;
+   background-image: url("Assets/Background.jpg");
+   text-align: center;
+   color: yellow;
+	font-family: Russo one;
+}
+
+h1{
+	font-size: 80px;
+   	text-align: center;
+  	color: gold;
+
+}
+header{
+	display: inline;
+
+	top: 100px;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+  background-image: url("Assets/Background.jpg");
+   padding: 5px;
+   position: sticky;
+	/* membuat supaya navigation lebih depan sehingga tidak tertimpa konten yang position: relative */
+	z-index:1;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+
+.profile img {
+   width: 200px;
+
+}
+
+.profile header {
+   text-align: center;
+}
+
+main {
+   padding: 5px;
+   overflow: auto;
+}
+
+aside {
+   padding-left: 20px;
+	font-size: 15px;
+
+}
+
+.profile header {
+   text-align: center;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+h2,h3{
+text-align: center;
+font-size : 45px;
+margin: 10px;
+font-family: Tahoma;
+}
+
+footer{
+
+	padding: 10px;
+	color: gold;
+	background-image: url("Assets/Background.jpg");
+}
+
+
+.flex-column {
+           display: flex;
+           flex-direction: column;
+           width: 800px;
+           height: 300px;
+           padding: 20px;
+           margin: 0 auto;
+           border-radius: 10px;
+           background-color: #a7040e;
+	   
+       }
+ 
+       .flex-row {
+           display: flex;
+	
+           flex-direction: row;
+           flex-grow: 1; 
+           padding: 0px;
+   
+	
+           background-color: #a7040e;
+
+       }
+ 
+       .box {
+           flex-grow: 1;
+	
+	background-color: #a7040e;
+
+
+       }
+
+
+
+.featured-image {
+   max-height: 325px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.alignment{
+	text-align: justify;
+  text-justify: inter-word;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.center{
+
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+
+
+.slider{
+	max-width: 700px;
+	
+	border:10px solid  #ffffff;
+	margin:0;
+	position: relative;
+	
+	overflow: auto;
+}
+
+.slider .left-slide,.slider .right-slide{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #a7040e;
+  border-radius: 50%;
+  color:gold;
+  font-size: 20px;
+  top:90%;
+  cursor: pointer;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 40px;
+  
+}
+
+
+.slider .left-slide{
+	left: 1px;
+}
+.slider .right-slide{
+	right: 1px;
+}
+.slider .s-items .item img{
+	
+	max-width: 400px;
+	display: block;
+	
+}
+
+.slider .s-items .item{
+	display: none;
+	
+}
+
+
+.slider .s-items .item .caption{
+position: absolute;
+width: 100%;
+height: 60px;
+bottom: 0px;
+left: 0px;
+background-color: rgba(0,0,0,.5);
+line-height: 50px;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+
+}
+
+.slider .s-items .item.active{
+	display: block;
+}
+
+
+
